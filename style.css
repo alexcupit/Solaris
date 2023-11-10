@@ -1,0 +1,104 @@
+
+
+:root {
+    --letter-unit: calc(100%/12)
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+    color: #FFEAD8;
+}
+
+.poster-container {
+    border: solid 15px white;
+    height: 85vh;
+    width: 80vw;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 3px grey ;
+    background-color: #211A18;
+}
+
+.title {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px
+}
+
+.graphic {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.graphic-canvas {
+    height: 400px;
+    width: 400px;
+}
+
+.graphic-text {
+    margin-bottom: 5px
+}
+
+
+#S {
+    width: calc(var(--letter-unit) * 2)
+}
+#O {
+    width: calc(var(--letter-unit) * 2)
+}
+#LA {
+    width: calc(var(--letter-unit) * 3)
+}
+#R {
+    width: calc(var(--letter-unit) * 2)
+}
+#I {
+    width: calc(var(--letter-unit) * 1)
+}
+#S2 {
+    width: calc(var(--letter-unit) * 2)
+}
+
+.footer-start {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* letter-spacing:0.2ch; */
+    font-stretch: expanded;
+
+}
+
+.footer-mff {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.footer-rad {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing:0.3ch;
+}
+
+.footer-stan {
+
+}
+
+p {
+    margin: 0
+}
